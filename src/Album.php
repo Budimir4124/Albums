@@ -1,6 +1,6 @@
 <?php
 
-namespace \nb;
+namespace Niklas\Albums;
 
 class Album{
 
