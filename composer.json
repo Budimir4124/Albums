@@ -1,0 +1,18 @@
+{
+    "name": "niklas/albums",
+    "description": "albums",
+    "type": "library",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Niklas.Budimir",
+            "email": "4124@htl.rennweg.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Niklas\\Albums\\": "src"
+        }
+    },
+    "require": {}
+}
