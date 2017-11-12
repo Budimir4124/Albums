@@ -1,6 +1,6 @@
 <?php
 
-namespace nb;
+namespace \nb;
 
 class Album{
 
@@ -18,6 +18,18 @@ class Album{
     public function __toString()
     {
         return "Titel: ".$this->title." | Interpret: ".$this->interpret." | Label: ".$this->label;
+    }
+
+    public function getInterpret(){
+        return $this->interpret;
+    }
+
+    public function getTitle(){
+        return $this->title;
+    }
+
+    public function getLabel(){
+        return $this->label;
     }
 
 }
